@@ -1,0 +1,17 @@
+{
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "eslint.useESLintClass": true,
+  "eslint.codeActionsOnSave.rules": [
+    "!no-debugger",
+    "*"
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
