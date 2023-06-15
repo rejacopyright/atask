@@ -1,7 +1,7 @@
 import { Octokit } from '@octokit/core'
 
 const octokit = new Octokit({
-  auth: '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',
+  auth: process.env.REACT_APP_GITHUB_TOKEN,
 })
 
 interface Params {
